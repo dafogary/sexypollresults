@@ -1,9 +1,8 @@
 # Sexy Poll Results Plugin for Joomla
 
-**Version:** 0.0.1 Alpha  
+**Version:** 0.0.3 Alpha  
 **Author:** Gary Foster – DAFO Creative Ltd/LLC  
-**Contributor:** JDev GPT by Nijssen Media  
-**Compatibility:** Joomla 4.x / 5.x  
+**Compatibility:** Joomla 5.x  
 **License:** GNU Affero General Public License v3 (AGPL-3.0)  
 
 ---
