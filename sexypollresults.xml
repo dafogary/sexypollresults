@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade" version="5.0">
+    <name>plg_content_sexypollresults</name>
+    <author>Gary Foster - DAFO Creative Ltd/LLC</author>
+    <creationDate>2025-10-14</creationDate>
+    <version>0.0.3 Alpha</version>
+    <description>Displays Sexy Polling Reloaded results for a specified month using a shortcode. Supports multiple shortcodes per article.</description>
+    <files>
+        <filename plugin="sexypollresults">sexypollresults.php</filename>
+        <filename>helper.php</filename>
+    </files>
+    
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="Basic Settings">
+
+                <field
+                    name="default_type"
+                    type="list"
+                    default="bar"
+                    label="Default Chart Type"
+                    description="Select which chart type should be used when the shortcode doesn’t specify one."
+                >
+                    <option value="bar">Bar (Gradient)</option>
+                    <option value="pie">Pie (Chart.js)</option>
+                </field>
+
+                <field
+                    name="color_start"
+                    type="color"
+                    default="#8e2de2"
+                    label="Gradient Start Color"
+                    description="Start color for the gradient bars or first pie color."
+                />
+
+                <field
+                    name="color_end"
+                    type="color"
+                    default="#4acfd9"
+                    label="Gradient End Color"
+                    description="End color for the gradient bars or second pie color."
+                />
+
+                <!-- ✅ NEW OPTIONS -->
+                <field
+                    name="pie_size"
+                    type="number"
+                    default="320"
+                    label="Pie Chart Size (px)"
+                    description="Sets the width and height of the pie chart in pixels."
+                />
+
+                <field
+                    name="show_labels"
+                    type="radio"
+                    default="1"
+                    label="Show Labels on Pie Slices"
+                    description="Display the answer and percentage inside each pie slice."
+                >
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+
+            </fieldset>
+        </fields>
+    </config>    
+</extension>
