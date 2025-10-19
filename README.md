@@ -1,6 +1,6 @@
 # Sexy Poll Results Plugin for Joomla
 
-**Version:** 0.0.3 Alpha  
+**Version:** 0.0.7 Alpha  
 **Author:** Gary Foster – DAFO Creative Ltd/LLC  
 **Compatibility:** Joomla 5.x  
 **License:** GNU Affero General Public License v3 (AGPL-3.0)  
