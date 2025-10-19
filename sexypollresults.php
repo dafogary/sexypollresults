@@ -3,7 +3,7 @@
  * @package     Joomla.Plugin
  * @subpackage  Content.SexyPollResults
  * @author      Gary Foster - DAFO Creative Ltd/LLC
- * @since       0.0.3 Alpha
+ * @since       0.0.8 Alpha
  */
 
 defined('_JEXEC') or die;

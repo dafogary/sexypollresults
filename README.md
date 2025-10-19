@@ -84,23 +84,23 @@ Displays results for Poll ID 3, limited to votes from January 2025.
 # Output Examples
 ## Bar Chart Example
 
+![Bar Chart Example](src/SexyPollResultsBarExample.png)
+
 Gradient progress bars using your configured start/end colors.
 
 Shows both vote count and percentage per answer.
 
 Clean Bootstrap 5 layout.
 
-Diagram to do.
-
 ## Pie Chart Example
+
+![Pie Chart Example](src/SexyPollResultsPieExample.png)
 
 Built using Chart.js (loaded from CDN).
 
 Adjustable chart size via plugin settings.
 
 Optional overlay labels (answer + percentage).
-
-Diagram to do.
 
 # Requirements
 

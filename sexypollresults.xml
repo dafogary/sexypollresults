@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="content" method="upgrade" version="5.0">
-    <name>plg_content_sexypollresults</name>
+    <name>Sexy Poll Results</name>
     <author>Gary Foster - DAFO Creative Ltd/LLC</author>
-    <creationDate>2025-10-14</creationDate>
-    <version>0.0.3 Alpha</version>
+    <creationDate>2025-10-19</creationDate>
+    <version>0.0.8 Alpha</version>
     <description>Displays Sexy Polling Reloaded results for a specified month using a shortcode. Supports multiple shortcodes per article.</description>
     <files>
         <filename plugin="sexypollresults">sexypollresults.php</filename>
